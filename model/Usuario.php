@@ -17,6 +17,7 @@ class Usuario {
     private $usuario;
     private $senha;
     private $idPerfil;
+    private $perfilAcesso;
     
  public function usuario() {
      
@@ -70,7 +71,6 @@ class Usuario {
             
         return $user;
     }
-   
 }
 
      
